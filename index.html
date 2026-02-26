@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Végétarien Dynamique</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>🌿 Le Jardinier Gourmet</h1>
+            <div class="search-box">
+                <input type="text" id="searchInput" size="30" placeholder=" Rechercher un plat (ex: salade, carotte, piment...)">
+            
+            </div>
+        </header>
+
+        <main id="menuContainer" class="menu-grid">
+            <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400" alt="Salade">
+                <div class="info">
+                    <h3>Salade de Saison</h3>
+                    <p>Un mélange frais de <strong>salade</strong> verte, de <strong></strong> râpée et de radis.</p>
+                    <span class="price">6000 FCFA</span>
+                </div>
+            </article>
+
+            <article class="menu-card">
+                <img src="carotte.jpg" alt="carotte">
+                <div class="info">
+                    <h3>Soupe Réconfortante</h3>
+                    <p>Velouté de potiron avec des petits dés de <strong>carotte</strong> et de la crème.</p>
+                    <span class="price">1500 FCFA</span>
+                </div>
+            </article>
+
+            <article class="menu-card">
+                <img src="piment.jpg" alt="">
+                    <h3>Piment</h3>
+                    <p> Le piment est l'un des aliments "thermogéniques" les plus efficaces.
+     Brûle-graisses : La capsaïcine augmente légèrement la température du corps, ce qui oblige l'organisme à puiser dans ses réserves d'énergie.
+    
+            <span class="price"> 1tas=500FCFA</span>
+                </div>
+            </article>
+                </div>
+            </article>
+        </main>
+
+        <!--<div id="noResult" style="display: none; text-align: center; margin-top: 20px;">
+            <p>Désolé, aucun plat ne contient cet ingrédient. 🥕</p>
+        </div> -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
